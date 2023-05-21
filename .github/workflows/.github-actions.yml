@@ -1,6 +1,7 @@
 on:
+
   pull_request:
-    types: [opened, reopened]
+    types: [opened, reopened, edited]
 jobs:
   code_quality:
     container: node:14.19.1
